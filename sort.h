@@ -38,4 +38,8 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+void sort_fast(int *array, int first, int last, size_t size);
+int split(int *array, int first, int last, size_t size);
+int partition(int *array, int lo, int hi, size_t size);
+void quick_s(int *array, int lo, int hi, size_t size);
 #endif
